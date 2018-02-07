@@ -1,0 +1,8 @@
+Dans l'url '/robots.txt', on decouvre une url -> '/.hidden'
+
+On parcours tous les dossiers pour lire tous les README,
+On lit chaque contenu de tous les README et on stock chaque contenu dans une list.
+A la fin on fait un set sur la list pour supprimer les doublon et on affiche la liste qui comporte les differents contenu trouve dans tous les READ.
+Parmi eux s'en trouve un different: 99dde1d35d1fdd283924d84e6d9f1d820
+
+'python parser.py' pour lancer le programme

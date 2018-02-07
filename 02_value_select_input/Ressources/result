@@ -1,0 +1,6 @@
+Dans la page "/?page=survey#"
+
+Modifier la value d'un change select, ex:
+	<option value="999999999999999999999999999999">10</option>
+
+	Selectionez cette value et valider le formulaire

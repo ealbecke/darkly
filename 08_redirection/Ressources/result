@@ -1,0 +1,6 @@
+Changer la redirection d'un lien:
+	Par exemple sur la page index, changer la redirection d'un lien d'une icone:
+	<a href="index.php?page=redirect&site=twitter" class="icon fa-twitter"></a>
+	Par:
+	<a href="index.php?page=redirect&site=yolo" class="icon fa-twitter"></a>
+	cliquez ensuite sur l'icon est le Flag apparait

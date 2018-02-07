@@ -1,0 +1,12 @@
+Dans le formulaire de la page: /index.php?page=feedback
+	on supprime l'attribut 'maxlength' du premier inputdu formulaire: name="txtName"
+	Puis dans le champs 'name', on y inclut:
+		<img src="aaaaa" onerror="console.log('Mes cookies sont : ' + document.cookie);" />
+
+	On recharge la page et dans la console, un cookie apparait:
+		I_am_admin=68934a3e9455fa72420237eb05902327 => false (en md5)
+
+	On remplace donc la value du cookie par true => b326b5062b2f0e69046810717534cb09
+	(Application > cookies > ...)
+
+	le flag apparait: df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
