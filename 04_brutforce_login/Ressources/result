@@ -5,4 +5,5 @@ Pour avoir la solution, lancer le fichier:
 	soit:
 		-> python solution_2.py
 
-With login 'Laurie', password is 'shadow'
+Pour la page: '/index.php?page=signin':
+	with login 'Laurie', password is 'shadow'

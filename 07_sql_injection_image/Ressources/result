@@ -1,3 +1,4 @@
+'/?page=searchimg'
 Sur le meme principe que la faille precedente,
 	1 AND 0 = 1 UNION SELECT title, comment FROM list_images;
 

